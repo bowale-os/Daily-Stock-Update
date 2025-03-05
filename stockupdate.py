@@ -55,7 +55,7 @@ emoji = '🔺' if percent_change > 0 else '🔻'
 
 
 #Set your preferred change percent
-if abs(percent_change) >= 1:
+if abs(percent_change) >= 3:
     sender_email = "danielsobowale67@gmail.com"
     sender_password = EMAIL_APP_PASSWORD
     receiver_email = sender_email
